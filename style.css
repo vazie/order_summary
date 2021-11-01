@@ -17,27 +17,39 @@ body {
     border-radius: 15px;
     background-color: white;
     width: 350px;
-    height: 500px;
+    height: 600px;
 }
 #Order {
     padding: 10px;
     text-align: center;
+    margin:auto;
 }
 #plan {
     background-color:hsl(225, 100%, 98%);
     border-radius: 10px;
-    margin: 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 15px;
 }
 #annual_plan {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-h1 {
-
+#payment {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    height: 40px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p {
+    color: rgb(109, 105, 105);
+    font-size: 16px;
 }
 h4 {
     margin: 10px;
