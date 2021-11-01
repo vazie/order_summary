@@ -4,6 +4,7 @@ body {
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
 }
-.content {
+#content {
     width: 50%;
+    border-radius: 10px;
 }
