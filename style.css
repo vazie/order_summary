@@ -19,6 +19,9 @@ body {
     width: 350px;
     height: 600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    position: absolute;
+    top: 10%;
 }
 #Order {
     padding: 10px;
@@ -45,8 +48,9 @@ body {
     font-weight: bold;
     font-size: small;
     height: 40px;
-    margin: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 15px;
+    margin: 15px;
 }
 p {
     color: rgb(109, 105, 105);
